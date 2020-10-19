@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"multiservo_pwm_f103c8t6_1\system_stm32f1xx.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_pwr.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_dma.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_rcc_ex.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_gpio.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_flash_ex.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_gpio_ex.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_flash.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_cortex.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_tim.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_rcc.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_tim_ex.o"
+"multiservo_pwm_f103c8t6_1\startup_stm32f103xb.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_hal_msp.o"
+"multiservo_pwm_f103c8t6_1\gpio.o"
+"multiservo_pwm_f103c8t6_1\tim.o"
+"multiservo_pwm_f103c8t6_1\main.o"
+"multiservo_pwm_f103c8t6_1\stm32f1xx_it.o"
+--library_type=microlib --strict --scatter "MultiServo_PWM_F103C8T6_1\MultiServo_PWM_F103C8T6_1.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MultiServo_PWM_F103C8T6_1.map" -o MultiServo_PWM_F103C8T6_1\MultiServo_PWM_F103C8T6_1.axf

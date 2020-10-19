@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"scolopendra_pwm_f103c8t6\startup_stm32f103xb.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_dma.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_gpio.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_rcc_ex.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_tim.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_rcc.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_flash.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_pwr.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_flash_ex.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_cortex.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_tim_ex.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_gpio_ex.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_it.o"
+"scolopendra_pwm_f103c8t6\stm32f1xx_hal_msp.o"
+"scolopendra_pwm_f103c8t6\tim.o"
+"scolopendra_pwm_f103c8t6\gpio.o"
+"scolopendra_pwm_f103c8t6\main.o"
+"scolopendra_pwm_f103c8t6\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Scolopendra_PWM_F103C8T6\Scolopendra_PWM_F103C8T6.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Scolopendra_PWM_F103C8T6.map" -o Scolopendra_PWM_F103C8T6\Scolopendra_PWM_F103C8T6.axf
